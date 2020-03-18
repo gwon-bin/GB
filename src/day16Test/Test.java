@@ -8,7 +8,7 @@ public class Test {
 	public static Scanner in = new Scanner(System.in);
 	public static void main(String[] args) {
 	String s = input();
-	//´õÇÏ±â¸¦ ÇÒ °ÍÀÎ°¡ »©±â¸¦ ÇÒ °ÍÀÎ°¡?
+	//ï¿½ï¿½ï¿½Ï±â¸¦ ï¿½ï¿½ ï¿½ï¿½ï¿½Î°ï¿½ ï¿½ï¿½ï¿½â¸¦ ï¿½ï¿½ ï¿½ï¿½ï¿½Î°ï¿½?
 	if(s.equals("+")) {
 		add(a,b);
 	}else if(s.equals("-")) {
@@ -22,15 +22,14 @@ public class Test {
 		System.out.println(a2+b2);
 	}
 	private static String input() {
-		System.out.println("----- °è»ê±â -----");
-		System.out.println("Ã¹¹øÂ° ¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä ?");
+		System.out.println("----- ï¿½ï¿½ï¿½ï¿½ -----");
 		a=in.nextInt();
 		in.nextLine();
-		System.out.println("µÎ¹øÂ° ¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä?");
+		System.out.println("ï¿½Î¹ï¿½Â° ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½Ï¼ï¿½ï¿½ï¿½?");
 		b = in.nextInt();
 		in.nextLine();
-		System.out.println("´õÇÏ±â : + / »©±â : - ");
-		String sign = in.nextLine(); //Å¬·¡½º ¿µ¿ª¿¡¼­ »ç¿ëºÒ°¡´É, input¸Þ¼­µå¸¸ °¡´É
+		System.out.println("ï¿½ï¿½ï¿½Ï±ï¿½ : + / ï¿½ï¿½ï¿½ï¿½ : - ");
+		String sign = in.nextLine(); //Å¬ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ò°ï¿½ï¿½ï¿½, inputï¿½Þ¼ï¿½ï¿½å¸¸ ï¿½ï¿½ï¿½ï¿½
 		return sign;
 	}
 }
